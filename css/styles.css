@@ -1,0 +1,460 @@
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-nav .dropdown-menu {
+        position: absolute;
+        right: 0;
+        left: auto;
+    }
+}
+
+
+/* Main header using clip-path to shape the header result */
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient( to right, rgba(51, 51, 153, 0.6), rgba(255, 51, 0, 0.6)), url("../img/animation_6.gif");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 65% 100%, 0 80%);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+
+/* Header by page */
+
+.gallery {
+    background: linear-gradient( to right, rgba(51, 51, 153, 0.6), rgba(255, 51, 0, 0.6)), url("../img/animation_1.gif");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 70% 100%, 0 80%);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.who {
+    background: linear-gradient( to right, rgba(51, 51, 153, 0.6), rgba(255, 51, 0, 0.6)), url("../img/animation_3.gif");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 75% 100%, 0 80%);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.contact {
+    background: linear-gradient( to right, rgba(51, 51, 153, 0.6), rgba(255, 51, 0, 0.6)), url("../img/animation_4.gif");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 80%);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.resources {
+    background: linear-gradient( to right, rgba(51, 51, 153, 0.6), rgba(255, 51, 0, 0.6)), url("../img/animation_2.gif");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 10%, 0 100%);
+    color: rgba(255, 255, 255, 0.85);
+    height: 16vh;
+}
+
+
+/* General basis */
+
+body {
+    width: 100%;
+}
+
+header h3 {
+    display: flex;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 7%;
+}
+
+header h5 {
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header h6 {
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header span {
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1rem 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header .navbar {
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+header #nav-resources {
+    margin-top: 0%;
+}
+
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.dropdown-menu {
+    text-align: right;
+}
+
+.dropdown-menu.show {
+    display: inline-flex;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #1e2125;
+    background-color: #dd846929;
+}
+
+.nav-item {
+    text-align: right;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .55);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0rem;
+}
+
+button img {
+    width: 3%;
+    height: 3%;
+}
+
+.btn:hover {
+    color: #f9f8f9;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 1px #26262600;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .bg-color {
+    background-color: #ff7543b8;
+}
+
+
+/* Home */
+
+
+/* Jumbotron */
+
+body #what-it-is {
+    background-image: linear-gradient(180deg, #fff, #f55e3c21);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+    text-align: justify;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Font list to use when the user computer doesn't have any others one */
+}
+
+
+/* Body for ai jumbotron*/
+
+body #ai-combo {
+    background-image: linear-gradient(0deg, #f8f9fa, #f55e3c21);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    letter-spacing: 0pt;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    text-align: justify;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body h1 {
+    text-align: center;
+}
+
+a {
+    color: #1e2125;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #feeae6;
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: 100;
+    color: #feeae6;
+}
+
+.text-dark {
+    color: #212529ad!important;
+}
+
+
+/* Cards */
+
+body #projects {
+    background-color: #f55e3c21;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+.card-body {
+    border-radius: 1%;
+}
+
+.mb-2 {
+    border-radius: 1%;
+}
+
+.container #ape-card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.1px;
+    border-radius: 5%;
+}
+
+.gradient-card {
+    /* fallback for old browsers */
+    background: #ddd6cd;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, #664373b0, #c34a31);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, #664373b0, #c34a31);
+}
+
+.gradient-card:hover {
+    background: linear-gradient(to right bottom, #c34a31, #664373b0);
+    color: rgba(255, 255, 255, 0.268)
+}
+
+.btn-card {
+    color: #212529;
+    background-color: #ffffff27;
+    border-color: #212529;
+}
+
+.btn-outline-card {
+    color: #212529;
+    border-color: #212529;
+}
+
+#bored {
+    width: 40%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#punks {
+    width: 40%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#monkey {
+    width: 40%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#nft-image {
+    width: 100%;
+    height: 290px;
+    /* margin-top: 3%; */
+    margin-bottom: 5%;
+}
+
+.btn-card {
+    color: #212529;
+    background-color: #ffffff27;
+    border-color: #21252900;
+}
+
+
+/* Who */
+
+body #who {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #f55e3c00);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+    text-align: justify;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Font list to use when the user computer doesn't have any others one */
+}
+
+
+/* Contact */
+
+body #contact {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #f55e3c00);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    margin-bottom: 0vh;
+    text-align: justify;
+    font-family: Calibri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Font list to use when the user computer doesn't have any others one */
+}
+
+.form-base {
+    margin-bottom: 10vh;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #ff754324;
+    background-clip: padding-box;
+    border: 1px solid #ced4da00;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-check-input:checked {
+    background-color: #ff754364;
+    border-color: #ff754364;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff754364;
+    border-color: #ff754364;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff754391;
+    border-color: #ff754391;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #ff754391;
+    border-color: #ff75439e;
+    box-shadow: 0 0 0 0.25rem rgb(49 132 253 / 50%);
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff754391;
+    border-color: #ff754391;
+}
+
+
+/* Resources */
+
+header #resources {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 5vh;
+    background: linear-gradient( to right, rgba(51, 51, 153, 0.6), rgba(255, 51, 0, 0.6)), url("../img/animation_6.gif");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ffffff00;
+}
+
+#table-1 {
+    padding: 130px 20px;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0.6), rgba(122, 90, 82, 0.22));
+}
+
+.card-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff0;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+
+/* Offcanvas */
+
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 0rem 0rem;
+    overflow-y: unset;
+}
+
+.offcanvas-body #off-map {
+    margin-top: 0px;
+}
+
+.offcanvas-header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1rem 1rem;
+}

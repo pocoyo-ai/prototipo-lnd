@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- UTF-8 and responsive tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Personal CSS-->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <!-- Page title -->
+    <title>NFAI - Contact</title>
+
+</head>
+
+<body>
+    <header class="contact">
+        <!-- Navbar working under body tag -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="home">
+            <a class="navbar-brand" href="#home"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="nav navbar-nav ms-auto justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="who.html">Who</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <!-- Dropdown items shows up at the left side -->
+                        <ul class="dropdown-menu dropdown-menu-lg-end bg-transparent">
+                            <li><a class="dropdown-item" href="./more/page_resources.html">Resources</a></li>
+                            <li><a class="dropdown-item" href="https://opensea.io/">Opensea</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header content -->
+        <br>
+        <h3>Send your opinion!</h3>
+    </header>
+
+    <!-- Body content -->
+    <div id="contact" class="container-fluid">
+        <div class="container">
+            <h1 class="display-6">Get in touch</h1>
+            <hr>
+            <div class="container justify-content-center">
+                <div class="col-lg-12">
+                    <form class="form-base">
+                        <div class="mb-3">
+                            <label id="name" class="form-label">Name</label>
+                            <input class="form-control" id="form-box-name">
+                        </div>
+                        <div class="mb-3">
+                            <label id="lastname" class="form-label">Lastname</label>
+                            <input class="form-control" id="form-box-surname">
+                        </div>
+                        <div class="mb-3">
+                            <label id="phone" class="form-label">Phone number</label>
+                            <span id="phoneHelp" class="form-text">* Optional</span>
+                            <input class="form-control" id="exampleInputPhone">
+                        </div>
+                        <div class="mb-3">
+                            <label id="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                            <div class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <span>Subject:</span>
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>General support</option>
+                            <option value="1">Report a bug</option>
+                            <option value="2">Suggestion</option>
+                            <option value="3">Other</option>
+                          </select>
+                        <br>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="validationTextarea" placeholder="Write here" required></textarea>
+                            <div class="feedback">
+                                Please enter a message in the textarea.
+                            </div>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheck" checked>
+                            <label class="form-check-label">Receive newsletters by mail</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                            <label class="form-check-label">Register email in web promotions</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I accept the <a href="https://www.youtube.com/watch?v=dtxlTPELj08">terms and conditions</a></label>
+                        </div>
+                        <input class="btn btn-primary" type="reset" value="Reset">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <!-- Container that takes all the page width -->
+        <div class="container-fluid bg-color text-center text-dark">
+            <!-- Button that activates Offcanvas -->
+            <div class="body text-center">
+                <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="bi bi-arrow-bar-up"></i></button>
+
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <!-- Offcanvas header -->
+                    <div class="offcanvas-header">
+                        <h6 class="offcanvas-title" id="offcanvasBottomLabel">Where at we?</h6>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body" id="off-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3518.601987355832!2d-15.4489039!3d28.1281568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40951c8a18a0f3%3A0x142cb0d09763a325!2sIES%20El%20Rinc%C3%B3n!5e0!3m2!1ses!2ses!4v1634876412106!5m2!1ses!2ses"
+                            height="350" style="width:100%;" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Div: Social media -->
+            <div id="social-media" class="mb-4">
+                <!-- Dribble -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://dribbble.com/dchen" role="button"><i
+                        class="bi bi-dribbble"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://twitter.com/KremlinRussia_E" role="button"><i
+                        class="bi bi-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://www.duckduckgo.com" role="button"><i
+                        class="bi bi-google"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/erosrome/" role="button"><i
+                        class="bi bi-linkedin"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/pocoyo-ai" role="button"><i
+                        class="bi bi-github"></i></a>
+            </div>
+            <!-- Div: Social media -->
+
+            <!-- Section: Text -->
+            <div id="copyright" class="mb-4">
+                <p>
+                    @2021
+                </p>
+            </div>
+            <!-- Section: Text -->
+            <!-- /Container -->
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
